@@ -1,0 +1,25 @@
+/*mixin*/
+
+@mixin title($height, $width)
+{
+    height: $height;
+    width: $width;
+}
+
+@mixin bNav($f-size, $f-weight, $p-left)
+{
+    font-size: $f-size;
+    font-weight: $f-weight;
+    padding-left: $p-left;
+}
+
+@mixin bNav2($f-size, $f-weight,)
+{
+    font-size: $f-size;
+    font-weight: $f-weight;
+}
+
+@mixin BBNav($b-color)
+{
+    background-color: $b-color;
+}

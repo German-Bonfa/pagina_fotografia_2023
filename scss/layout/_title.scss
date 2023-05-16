@@ -1,0 +1,21 @@
+// TITLE
+
+//IMPORTS-MIXIN
+
+@import "../utilities/mixin";
+
+/*
+-------------------------------------------
+separar a la barra de navegación del titulo
+-------------------------------------------
+*/
+
+.tituloPrincipal {
+    @include title(50px, 50px)
+  }
+
+/*
+-------------------------------------------------
+END - separar a la barra de navegación del titulo
+-------------------------------------------------
+*/

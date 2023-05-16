@@ -1,0 +1,24 @@
+// PICTURES
+
+/*
+----------------------------------------
+Atributos de la imagen
+----------------------------------------
+*/
+.imagen {
+    width: 100%;
+    &:hover {
+      transition: all 1s;
+      transform: scale(1.25);
+      -webkit-transform: scale(1.25);
+      -moz-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+      -o-transform: scale(1.25);
+    }
+    
+}
+/*
+----------------------------------------
+END - Atributos de la imagen
+----------------------------------------
+*/

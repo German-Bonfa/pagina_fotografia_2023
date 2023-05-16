@@ -1,0 +1,31 @@
+// IMPORTS
+
+// VARIABLES
+
+@import "base/variables";
+
+// BASE
+
+@import "base/reset";
+@import "base/fonts";
+@import "base/media";
+
+// COMPONENTES
+
+ @import "../scss/components/animations";
+
+
+// LAYOUT
+
+@import "layout/background";
+@import "layout/header";
+@import "layout/title";
+@import "layout/links";
+@import "layout/pictures";
+
+// UTILITIES
+
+@import "../scss/utilities/mixin";
+
+
+

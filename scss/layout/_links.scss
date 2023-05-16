@@ -1,0 +1,78 @@
+// LINKS-ATRIBUTES
+
+/*
+----------------------------------------
+Propiedades de los Vinculos
+----------------------------------------
+*/
+/*
+----------------------------------------
+Propiedades del Vinculo "ver más"
+----------------------------------------
+*/
+.vinculoVerMas {
+  color:$l-color;
+  text-decoration: none;
+  &:hover {
+    background-color: $lh-color;
+    border-radius: 5px;
+    margin: 5px;
+  }
+}
+
+/*
+---------------------------------
+Propiedades del Vinculo "Flecha"
+---------------------------------
+*/
+.flecha {
+  color:$l-color;
+  font-size: $fF-size;
+  width: 2rem;
+  height: 2rem;
+  &:hover {
+    color:$lh2-color;
+    transform: scale(2);
+    border-radius: 5px;
+    transition: all 1s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+          }
+       }
+/*
+-----------------------------------------
+atributos de los vinculos a redes sociales
+------------------------------------------
+*/
+.contactoRedes {
+  color:$l-color;
+  font-size: $fI-size;
+  &:hover {
+    animation: contactoRedes 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    -webkit-animation: contactoRedes 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+          }
+              }
+/*
+----------------------------------------
+animacion vinculos a redes sociales
+----------------------------------------
+*/
+@keyframes contactoRedes {
+  0% {
+    box-shadow: 0 0 #232323, 0 0 #232323, 0 0 #232323, 0 0 #232323, 0 0 #232323, 0 0 #232323, 0 0 #232323, 0 0 #232323;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 1px 1px #232323, 2px 2px #232323, 3px 3px #232323, 4px 4px #232323, 5px 5px #232323, 6px 6px #232323, 7px 7px #232323, 8px 8px #232323;
+    transform: translateX(-8px) translateY(-8px);
+  }
+}
+
+/*
+----------------------------------------
+END - Propiedades de los Vinculos
+----------------------------------------
+*/

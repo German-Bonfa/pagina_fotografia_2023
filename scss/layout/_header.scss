@@ -1,0 +1,28 @@
+// HEADER
+
+//IMPORTS-MIXIN
+
+@import "../utilities/mixin";
+
+/*
+----------------------------------------
+Barra de navegación texto tamaño fondo
+----------------------------------------
+*/
+.barraNav {
+  @include bNav(3rem, bold, 0.5%)
+}
+.barraNav2 {
+  @include bNav2(3rem, bold)
+}
+
+.backBarraNav{
+  @include BBNav(#767676)
+}
+
+/*
+--------------------------------------------
+END - barra de navegación texto tamaño fondo
+--------------------------------------------
+*/
+
